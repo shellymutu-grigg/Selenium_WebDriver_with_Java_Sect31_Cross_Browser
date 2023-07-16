@@ -5,12 +5,12 @@ platforms:
   - os: Windows
     osVersion: 11
     browserName: Chrome
-    browserVersion: 103.0
+    browserVersion: latest
   - os: Windows
     osVersion: 10
     browserName: Firefox
-    browserVersion: 102.0
+    browserVersion: latest
   - os: OS X
     osVersion: Big Sur
     browserName: Safari
-    browserVersion: 14.1
+    browserVersion: 14.1  

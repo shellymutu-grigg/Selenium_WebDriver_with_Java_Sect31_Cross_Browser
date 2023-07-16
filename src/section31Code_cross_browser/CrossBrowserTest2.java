@@ -10,16 +10,15 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CrossBrowserTest {
+public class CrossBrowserTest2 {
 
 	@Test
 	public void titleCheck() throws MalformedURLException {
 		MutableCapabilities capabilities = new MutableCapabilities();
 
 		WebDriver webDriver = new RemoteWebDriver(new URL("http://www.myexamplebrowserstack.com"), capabilities);
-		webDriver.get("https://rahulshettyacademy.com");
-		Assert.assertEquals(false, webDriver.getTitle()
-				.matches("Selenium, API Testing, Software Testing & More QA Tutorials | Rahul Shetty Academy"));
+		webDriver.get("https://shellymutugrigg.com");
+		Assert.assertEquals(false, webDriver.getTitle().matches("Shelly Mutu-Grigg X"));
 
 		System.out.println(MessageFormat.format("The page title is: {0}", webDriver.getTitle()));
 	}
