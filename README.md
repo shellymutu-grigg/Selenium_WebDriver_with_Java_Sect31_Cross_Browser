@@ -1,0 +1,1 @@
+https://automate.browserstack.com/dashboard/v2/quick-start/get-started
